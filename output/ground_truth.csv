@@ -1,0 +1,6 @@
+record_type,record_id,issue_type,expected_label,rule
+acknowledgement,ACK-ALM-MCH-001-000001-02,ACK_BEFORE_ALARM,INVALID_ACK_TIMESTAMP,ack_ts must be >= alarm_event.event_ts
+machine_state_event,STE-000001,IMPOSSIBLE_INTERLOCK_STATE,UNSAFE_STATE_TRANSITION,RUNNING requires interlock ENGAGED
+incident,INC-2026-003469,MISSING_TRIGGER_CONTEXT,INCIDENT_WITHOUT_TRIGGER,incident must reference triggering alarm or documented machine-state event
+alarm_event,ALM-MCH-001-050001,DUPLICATE_REPLAY,REPLAY_DUPLICATE,replay source_event_id already exists; exclude replay from unique event counts
+corrective_action,ACT-INC-2026-000001-02,CLOSED_WITHOUT_VERIFICATION,ACTION_CLOSE_REJECTED,CLOSED action requires verification_status VERIFIED and verified_ts

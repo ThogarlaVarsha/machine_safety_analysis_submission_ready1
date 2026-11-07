@@ -1,0 +1,259 @@
+{
+  "total_alarm_events_including_replay": 50001,
+  "unique_non_replay_alarm_events": 50000,
+  "severity_counts": {
+    "MEDIUM": 10132,
+    "INFO": 9973,
+    "HIGH": 9954,
+    "CRITICAL": 9963,
+    "LOW": 9979
+  },
+  "incident_count": 3469,
+  "corrective_action_count": 3469,
+  "acknowledgement_count": 29970,
+  "delayed_acknowledgements_over_30m": 4879,
+  "acknowledgement_valid_timestamp_rate": 1.0,
+  "nuisance_alarm_event_count": 1104,
+  "machines_with_nuisance_alarms": 18,
+  "nuisance_clusters_threshold_5_per_machine_per_utc_day": [
+    {
+      "machine_id": "MCH-006",
+      "date_utc": "2026-10-20",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-006",
+      "date_utc": "2026-10-30",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-012",
+      "date_utc": "2026-10-01",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-012",
+      "date_utc": "2026-10-06",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-012",
+      "date_utc": "2026-10-07",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-022",
+      "date_utc": "2026-10-10",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-023",
+      "date_utc": "2026-10-06",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-023",
+      "date_utc": "2026-10-17",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-028",
+      "date_utc": "2026-10-01",
+      "nuisance_alarm_count": 7
+    },
+    {
+      "machine_id": "MCH-028",
+      "date_utc": "2026-10-06",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-028",
+      "date_utc": "2026-10-09",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-028",
+      "date_utc": "2026-10-30",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-033",
+      "date_utc": "2026-10-09",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-033",
+      "date_utc": "2026-10-16",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-034",
+      "date_utc": "2026-10-14",
+      "nuisance_alarm_count": 7
+    },
+    {
+      "machine_id": "MCH-034",
+      "date_utc": "2026-10-21",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-034",
+      "date_utc": "2026-10-27",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-039",
+      "date_utc": "2026-10-02",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-039",
+      "date_utc": "2026-10-05",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-039",
+      "date_utc": "2026-10-21",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-044",
+      "date_utc": "2026-10-03",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-044",
+      "date_utc": "2026-10-19",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-045",
+      "date_utc": "2026-10-15",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-045",
+      "date_utc": "2026-10-16",
+      "nuisance_alarm_count": 5
+    },
+    {
+      "machine_id": "MCH-045",
+      "date_utc": "2026-10-24",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-045",
+      "date_utc": "2026-10-26",
+      "nuisance_alarm_count": 8
+    },
+    {
+      "machine_id": "MCH-050",
+      "date_utc": "2026-10-01",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-050",
+      "date_utc": "2026-10-23",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-055",
+      "date_utc": "2026-10-26",
+      "nuisance_alarm_count": 6
+    },
+    {
+      "machine_id": "MCH-055",
+      "date_utc": "2026-10-30",
+      "nuisance_alarm_count": 6
+    }
+  ],
+  "alarm_flood_event_count": 409,
+  "unsafe_running_with_interlock_not_engaged_count": 3419,
+  "top_10_machines_by_unsafe_condition": [
+    {
+      "machine_id": "MCH-014",
+      "unsafe_event_count": 80
+    },
+    {
+      "machine_id": "MCH-042",
+      "unsafe_event_count": 75
+    },
+    {
+      "machine_id": "MCH-049",
+      "unsafe_event_count": 69
+    },
+    {
+      "machine_id": "MCH-050",
+      "unsafe_event_count": 69
+    },
+    {
+      "machine_id": "MCH-001",
+      "unsafe_event_count": 68
+    },
+    {
+      "machine_id": "MCH-037",
+      "unsafe_event_count": 68
+    },
+    {
+      "machine_id": "MCH-007",
+      "unsafe_event_count": 67
+    },
+    {
+      "machine_id": "MCH-015",
+      "unsafe_event_count": 67
+    },
+    {
+      "machine_id": "MCH-060",
+      "unsafe_event_count": 66
+    },
+    {
+      "machine_id": "MCH-034",
+      "unsafe_event_count": 65
+    }
+  ],
+  "top_10_machines_by_alarm_volume": [
+    {
+      "machine_id": "MCH-016",
+      "alarm_count": 898
+    },
+    {
+      "machine_id": "MCH-030",
+      "alarm_count": 894
+    },
+    {
+      "machine_id": "MCH-010",
+      "alarm_count": 881
+    },
+    {
+      "machine_id": "MCH-049",
+      "alarm_count": 876
+    },
+    {
+      "machine_id": "MCH-050",
+      "alarm_count": 871
+    },
+    {
+      "machine_id": "MCH-008",
+      "alarm_count": 862
+    },
+    {
+      "machine_id": "MCH-026",
+      "alarm_count": 862
+    },
+    {
+      "machine_id": "MCH-046",
+      "alarm_count": 859
+    },
+    {
+      "machine_id": "MCH-060",
+      "alarm_count": 857
+    },
+    {
+      "machine_id": "MCH-013",
+      "alarm_count": 856
+    }
+  ],
+  "labelled_edge_cases": 5,
+  "repeated_unsafe_condition_rule": "machine_state=RUNNING AND interlock_state!=ENGAGED; grouped by machine_id and 24-hour UTC date",
+  "metrics_note": "All metrics are derived from generated source records. ground_truth is excluded from analytics inputs."
+}

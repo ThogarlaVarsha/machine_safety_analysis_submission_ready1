@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "integrity_check": [
+    "ok"
+  ],
+  "foreign_key_violations": 0,
+  "table_count": 13,
+  "tables": [
+    "acknowledgement",
+    "alarm_definition",
+    "alarm_event",
+    "corrective_action",
+    "incident",
+    "interlock",
+    "machine",
+    "machine_interlock",
+    "machine_state_event",
+    "machine_zone",
+    "operator_shift",
+    "plant",
+    "safety_zone"
+  ]
+}

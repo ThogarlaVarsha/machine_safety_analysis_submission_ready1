@@ -1,0 +1,29 @@
+{
+  "project": "Machine Safety Analysis",
+  "seed": 20261022,
+  "scale": "full",
+  "validation_status": "PASS",
+  "database_status": "PASS",
+  "row_counts": {
+    "plant": 4,
+    "machine": 60,
+    "safety_zone": 60,
+    "interlock": 60,
+    "alarm_definition": 200,
+    "operator_shift": 180,
+    "machine_zone": 60,
+    "machine_interlock": 60,
+    "alarm_event": 50001,
+    "machine_state_event": 50000,
+    "acknowledgement": 29970,
+    "incident": 3469,
+    "corrective_action": 3469
+  },
+  "alarm_events_including_replay": 50001,
+  "baseline_alarm_events": 50000,
+  "labelled_edge_cases": 5,
+  "detected_edge_cases": 5,
+  "analytics_metrics_file": "analytics_summary.json",
+  "validation_file": "validation_summary.json",
+  "database_file": "machine_safety.db"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "record_type": "acknowledgement",
+    "record_id": "ACK-ALM-MCH-001-000001-02",
+    "issue_type": "ACK_BEFORE_ALARM",
+    "expected_label": "INVALID_ACK_TIMESTAMP",
+    "rule": "ack_ts must be >= alarm_event.event_ts"
+  },
+  {
+    "record_type": "machine_state_event",
+    "record_id": "STE-000001",
+    "issue_type": "IMPOSSIBLE_INTERLOCK_STATE",
+    "expected_label": "UNSAFE_STATE_TRANSITION",
+    "rule": "RUNNING requires interlock ENGAGED"
+  },
+  {
+    "record_type": "incident",
+    "record_id": "INC-2026-003469",
+    "issue_type": "MISSING_TRIGGER_CONTEXT",
+    "expected_label": "INCIDENT_WITHOUT_TRIGGER",
+    "rule": "incident must reference triggering alarm or documented machine-state event"
+  },
+  {
+    "record_type": "alarm_event",
+    "record_id": "ALM-MCH-001-050001",
+    "issue_type": "DUPLICATE_REPLAY",
+    "expected_label": "REPLAY_DUPLICATE",
+    "rule": "replay source_event_id already exists; exclude replay from unique event counts"
+  },
+  {
+    "record_type": "corrective_action",
+    "record_id": "ACT-INC-2026-000001-02",
+    "issue_type": "CLOSED_WITHOUT_VERIFICATION",
+    "expected_label": "ACTION_CLOSE_REJECTED",
+    "rule": "CLOSED action requires verification_status VERIFIED and verified_ts"
+  }
+]

@@ -1,0 +1,17 @@
+machine_safety_analysis/
+  README.md
+  DATA_DICTIONARY.md
+  PROJECT_STRUCTURE.txt
+  requirements.txt
+  run_project.bat
+  run_project.sh
+  src/safety_project.py
+  tests/test_project.py
+  output/
+    plant.csv, machine.csv, safety_zone.csv, interlock.csv,
+    alarm_definition.csv, operator_shift.csv, machine_zone.csv,
+    machine_interlock.csv, alarm_event.csv, machine_state_event.csv,
+    acknowledgement.csv, incident.csv, corrective_action.csv,
+    data.json, ground_truth.csv, ground_truth.json,
+    machine_safety.db, seed.sql, analytics_summary.json,
+    validation_summary.json, source_manifest.json, checksums.sha256

@@ -1,0 +1,5 @@
+plant_id,plant_name,site_code,country,timezone,lifecycle_state,effective_from,effective_to
+PLT-001,Synthetic Plant 1,SITE-001,IN,UTC,ACTIVE,2026-01-01,
+PLT-002,Synthetic Plant 2,SITE-002,IN,UTC,ACTIVE,2026-01-01,
+PLT-003,Synthetic Plant 3,SITE-003,IN,UTC,ACTIVE,2026-01-01,
+PLT-004,Synthetic Plant 4,SITE-004,IN,UTC,ACTIVE,2026-01-01,

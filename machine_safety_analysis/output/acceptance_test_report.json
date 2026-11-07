@@ -1,0 +1,32 @@
+{
+  "overall_status": "PASS",
+  "unit_tests": {
+    "status": "PASS",
+    "tests_run": 2,
+    "tests_passed": 2,
+    "tests_failed": 0,
+    "coverage": [
+      "starter dataset generation",
+      "all five labelled negative scenarios detected",
+      "primary/foreign-key and business validation",
+      "SQLite integrity and foreign-key checks"
+    ]
+  },
+  "full_scale_reproducibility": {
+    "status": "PASS",
+    "seed": 20261022,
+    "independent_full_runs": 2,
+    "baseline_alarm_events_per_run": 50000,
+    "replay_events_per_run": 1,
+    "source_csv_json_files_compared": 16,
+    "sha256_checksums_identical": true
+  },
+  "full_dataset_validation": {
+    "status": "PASS",
+    "validation_errors": 0,
+    "sqlite_integrity_check": "ok",
+    "sqlite_foreign_key_violations": 0,
+    "labelled_edge_cases_detected": 5
+  },
+  "note": "All data is synthetic. This report records automated checks run during project packaging; it is not a certification of real-world plant safety."
+}

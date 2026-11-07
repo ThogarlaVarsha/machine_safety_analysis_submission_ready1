@@ -1,0 +1,65 @@
+{
+  "project": "Machine Safety Analysis",
+  "seed": 20261022,
+  "scale": "full",
+  "period_start": "2026-10-01T00:00:00Z",
+  "period_end_exclusive": "2026-10-31T00:00:00Z",
+  "period_days": 30,
+  "synthetic_data": true,
+  "external_sources": [],
+  "tables": {
+    "plant": {
+      "rows": 4,
+      "file": "plant.csv"
+    },
+    "machine": {
+      "rows": 60,
+      "file": "machine.csv"
+    },
+    "safety_zone": {
+      "rows": 60,
+      "file": "safety_zone.csv"
+    },
+    "interlock": {
+      "rows": 60,
+      "file": "interlock.csv"
+    },
+    "alarm_definition": {
+      "rows": 200,
+      "file": "alarm_definition.csv"
+    },
+    "operator_shift": {
+      "rows": 180,
+      "file": "operator_shift.csv"
+    },
+    "machine_zone": {
+      "rows": 60,
+      "file": "machine_zone.csv"
+    },
+    "machine_interlock": {
+      "rows": 60,
+      "file": "machine_interlock.csv"
+    },
+    "alarm_event": {
+      "rows": 50001,
+      "file": "alarm_event.csv"
+    },
+    "machine_state_event": {
+      "rows": 50000,
+      "file": "machine_state_event.csv"
+    },
+    "acknowledgement": {
+      "rows": 29970,
+      "file": "acknowledgement.csv"
+    },
+    "incident": {
+      "rows": 3469,
+      "file": "incident.csv"
+    },
+    "corrective_action": {
+      "rows": 3469,
+      "file": "corrective_action.csv"
+    }
+  },
+  "ground_truth_rows": 5
+}

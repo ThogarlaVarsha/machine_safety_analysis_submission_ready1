@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "detected_exceptions": [
+    {
+      "record_type": "alarm_event",
+      "record_id": "ALM-MCH-001-050001",
+      "decision": "REPLAY_DUPLICATE_DETECTED"
+    },
+    {
+      "record_type": "acknowledgement",
+      "record_id": "ACK-ALM-MCH-001-000001-02",
+      "decision": "INVALID_ACK_TIMESTAMP_DETECTED"
+    },
+    {
+      "record_type": "machine_state_event",
+      "record_id": "STE-000001",
+      "decision": "UNSAFE_STATE_TRANSITION_DETECTED"
+    },
+    {
+      "record_type": "incident",
+      "record_id": "INC-2026-003469",
+      "decision": "MISSING_TRIGGER_CONTEXT_DETECTED"
+    },
+    {
+      "record_type": "corrective_action",
+      "record_id": "ACT-INC-2026-000001-02",
+      "decision": "UNVERIFIED_CLOSURE_REJECTED"
+    }
+  ],
+  "checks": {
+    "primary_key_uniqueness": "PASS",
+    "all_foreign_keys": "PASS",
+    "allowed_enums": "PASS",
+    "parent_child_consistency": "PASS",
+    "event_ordering": "PASS",
+    "acknowledgement_sla_definition_rules": "PASS",
+    "machine_interlock_safety_rule": "PASS",
+    "incident_traceability": "PASS",
+    "corrective_action_lifecycle": "PASS",
+    "ground_truth_separation_and_references": "PASS",
+    "negative_scenario_detection": "5/5"
+  },
+  "database_validation": {
+    "status": "PASS",
+    "errors": [],
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_violations": 0,
+    "table_count": 13,
+    "tables": [
+      "acknowledgement",
+      "alarm_definition",
+      "alarm_event",
+      "corrective_action",
+      "incident",
+      "interlock",
+      "machine",
+      "machine_interlock",
+      "machine_state_event",
+      "machine_zone",
+      "operator_shift",
+      "plant",
+      "safety_zone"
+    ]
+  }
+}
